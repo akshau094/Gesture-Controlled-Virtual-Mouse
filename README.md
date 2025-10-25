@@ -1,2 +1,17 @@
-# Gesture-Controlled-Virtual-Mouse
-AI-powered virtual mouse controlled by hand gestures through your webcam. Built with Python, OpenCV &amp; MediaPipe for real-time hand tracking. Supports full mouse functionality: move cursor, click, double-click, drag, right-click &amp; scroll using intuitive pinch and finger gestures. No physical mouse needed—just wave your hand! 🚀🖐️
+# Gesture-Controlled Virtual Mouse (Python)
+
+Control your mouse with hand gestures using your webcam, powered by MediaPipe (hand tracking) and PyAutoGUI (mouse actions).
+
+## Features
+- Move cursor: Index finger up
+- Left click: Thumb–Index pinch
+- Right click: Thumb–Middle pinch
+- Click-and-drag: Hold the Thumb–Index pinch for ~0.45s
+- Scroll: Index + Middle fingers up, move hand up/down to scroll
+
+## Requirements
+- Windows with Python 3.9+ recommended
+- A working webcam
+
+## Setup
+1. Install dependencies:
